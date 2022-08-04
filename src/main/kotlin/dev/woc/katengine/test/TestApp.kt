@@ -8,6 +8,19 @@ import org.joml.Vector4f
 import kotlin.math.cos
 import kotlin.math.sin
 
+object QuadMesh {
+    var vbo: Long = 0
+    var ibo: Long = 0
+
+    fun init() {
+
+    }
+}
+
+class Quad {
+
+}
+
 fun main() {
     KatEngine.init()
 
